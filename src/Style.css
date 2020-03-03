@@ -1,0 +1,421 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.delay1p {
+  transition-delay: 1s;
+}
+
+.opacity0 {
+  opacity: 0;
+}
+
+.opacity1 {
+  opacity: 1;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat" !important;
+}
+
+h1 {
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+
+h2 {
+  font-weight: 700 !important;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navbar */
+.navbar {
+  padding: 1% 9.5% !important;
+  margin-bottom: 2%;
+  color: #ffffff;
+  transition: 0.3s !important;
+}
+
+.navbarlink {
+  color: #ffffff;
+  padding: 1px;
+  margin: 0 10px;
+  font-family: "Ubuntu";
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.navbarlink:hover {
+  color: #ff7c7c;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.navbarbrand {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbarbrand:hover {
+  color: #ff7c7c;
+  text-decoration: none;
+}
+
+.navbarscrolled {
+  background-color: #21243d !important;
+  top: 0;
+  transition: 0.3s !important;
+}
+
+.fa-bars {
+  color: #ffffff;
+}
+
+.navside {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 105vh;
+  padding: 5%;
+  background-color: #21243d;
+}
+
+.navside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.navside li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navside li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.fa-times {
+  color: #f1f1f1;
+}
+
+.fas {
+  float: right;
+}
+
+.navside button {
+  float: right;
+  margin-right: 10%;
+  font-size: 40px;
+}
+
+.navside .h2 {
+  position: absolute;
+  margin: 50% 35%;
+  color: #ffffff;
+  z-index: 10;
+}
+/* header */
+
+#header {
+  background-color: #21243d !important;
+  padding: 2% 0 10%;
+  color: #fff;
+}
+
+#header .title1 {
+  padding: 13% 2%;
+}
+
+#header .title1animation {
+  animation-duration: 3s;
+  animation-name: headertitle1;
+}
+
+@keyframes headertitle1 {
+  from {
+    opacity: 0;
+    margin-left: -50px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+#header .img1 {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  right: 1%;
+}
+
+#header .img1animation {
+  animation-duration: 3s;
+  animation-name: headerimg1;
+}
+
+@keyframes headerimg1 {
+  from {
+    opacity: 0;
+    left: 100px;
+  }
+
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.fab {
+  margin: 0 10px;
+}
+
+/* title */
+
+#title {
+  padding: 5% 0;
+}
+
+#title .judultitle {
+  text-align: center;
+  margin-bottom: 6%;
+  text-decoration: underline;
+}
+
+#title .judultitleanimation {
+  animation-duration: 3s;
+  animation-name: slideinjudul;
+}
+
+@keyframes slideinjudul {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
+
+/* Title 2  */
+
+#title2 {
+  height: 500px;
+  background-color: #21243d;
+  padding: 2% 0;
+}
+.card {
+  margin: 0 auto !important;
+}
+
+/* Carousel */
+
+.carousel {
+  margin: 2% 0;
+  text-align: center;
+}
+
+.carousel .carousel-inner {
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.carousel-item {
+  width: 50px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.carousel .testimonial-text {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.carousel .testimonials-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.carousel em {
+  display: block;
+}
+
+/* Press */
+
+.press {
+  text-align: center;
+}
+
+.press .press-image {
+  text-align: center;
+  width: 15%;
+  margin: 0 6%;
+  height: auto;
+}
+
+#footer {
+  height: 100px;
+  background-color: #ffd082;
+  padding: 5% 0;
+  text-align: center;
+}
+
+#footer .contacts .fab {
+  font-size: 2rem;
+}
+
+#footer .contacts .fab:hover {
+  font-size: 2rem;
+  color: #ff7c7c;
+}
+
+@media (max-width: 990px) {
+  /* Navbar */
+  .navbar {
+    padding: 5% 9.5% !important;
+    margin: -9px -15px;
+    color: #ffffff;
+    background-color: #21243d;
+  }
+
+  .navbarlink:hover {
+    color: #ff7c7c;
+    /* padding: 1px; */
+    text-decoration: none;
+  }
+
+  .navbarbrand:hover {
+    color: #ff7c7c;
+    text-decoration: none;
+  }
+
+  .navbarscrolled {
+    padding: 5% 10% !important;
+    color: #21243d !important;
+    transition: 0.5s;
+  }
+
+  /* Header */
+  #header {
+    background-color: #21243d !important;
+    padding: 2% 0 20%;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #header .title1 {
+    padding: 20% 5% 0;
+    text-align: center;
+    font-size: 1rem !important;
+  }
+
+  #header .img1 {
+    height: auto;
+    width: 95%;
+    position: static;
+    right: 0%;
+    margin-top: 20%;
+  }
+
+  .fab {
+    margin: 0 10px;
+  }
+
+  /* title */
+
+  #title {
+    padding: 2% 12%;
+  }
+
+  .card {
+    margin: 0 auto !important;
+  }
+
+  /* Title 2  */
+
+  #title2 {
+    height: 400px;
+    background-color: #21243d;
+    padding: 2% 0;
+  }
+
+  /* Carousel */
+
+  .carousel {
+    margin: 2% 0;
+    text-align: center;
+    transition-delay: 1s;
+  }
+
+  .carousel .carousel-inner {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+
+  .carousel-item {
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  .carousel .testimonial-text {
+    margin: 2% 10% 2%;
+    font-size: 1.5rem;
+  }
+  /* Press */
+
+  .press {
+    text-align: center;
+  }
+
+  .press .press-image {
+    text-align: center;
+    width: 20%;
+    margin: 0 6%;
+    height: auto;
+  }
+}
