@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navibar from "../navbar/navbar";
 import { Container } from "react-bootstrap";
-import img1 from "../../assests/svg/header.svg";
+import img1 from "../../assests/svg/shopping.svg";
 
 const Header = () => {
   const [load, setLoad] = useState(false);
@@ -28,24 +28,24 @@ const Header = () => {
                 : "title1 col-sm-12 col-lg-6"
             }
           >
-            <h1>
-              Lorem ipsum is placeholder text commonly used in the graphic
+            <h1 style={{ fontSize: "10rem" }}>
+              hijab trendy, comfortable and beautiful
             </h1>
 
-            <button
+            {/* <button
               type="button"
               className="btn btn-dark btn-lg download-button"
             >
               <i className="fab fa-apple"></i>
               Download
-            </button>
-            <button
+            </button> */}
+            {/* <button
               type=" button"
               className="btn btn-outline-light btn-lg download-button"
             >
               <i className="fab fa-google-play"></i>
               Download
-            </button>
+            </button> */}
           </div>
           <div className="col-sm-12 col-lg-6">
             <img

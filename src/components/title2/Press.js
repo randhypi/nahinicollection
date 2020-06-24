@@ -25,7 +25,7 @@ const Press = () => {
       >
         <img className="press-image" src={image[0]} alt="tc-logo" />
         <img className="press-image" src={image[5]} alt="biz-insider-logo" />
-        <img className="press-image" src={image[6]} alt="mashable-logo" />
+        <img className="press-image" src={image[7]} alt="mashable-logo" />
       </div>
     );
   };

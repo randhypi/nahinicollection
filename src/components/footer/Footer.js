@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <section id="footer">
       <div className="container">
-        <Contacts />
+        <Contacts />© nah ini collection all rights reserved — site by{" "}
+        <a href="https://www.instagram.com/randhypi/">RPI</a>
       </div>
     </section>
   );

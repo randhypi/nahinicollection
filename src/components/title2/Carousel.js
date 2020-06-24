@@ -3,63 +3,32 @@ import TrackVisibility from "react-on-screen";
 
 const Cr = ({ isVisible }) => {
   return (
-    <div
-      id="carouselExampleIndicators"
+    <section
+      id="contactus"
       className={
-        isVisible
-          ? "carousel slide animated fadeIn opacity1"
-          : "carousel slide opacity0"
+        isVisible ? "press animated fadeIn opacity1" : "press opacity0"
       }
-      data-ride="carousel"
-      data-interval="3000"
-      data-pause="hover"
     >
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <h2 className="testimonial-text">
-            I no longer have to sniff other dogs for love. I've found the
-            hottest Corgi on TinDog. Woof.
-          </h2>
-          <img
-            className="testimonials-image"
-            src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3759e09a5b9fbe53088b23c615b6312e"
-            alt="dog-profile"
-          />
-          <em>Pebbles, New York</em>
-        </div>
-        <div className="carousel-item">
-          <h2 className="testimonial-text">
-            My dog used to be so lonely, but with TinDog's help, they've found
-            the love of their life. I think.
-          </h2>
-          <img
-            className="testimonials-image"
-            src="https://images.unsplash.com/photo-1502720705749-871143f0e671?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b8377ca9f985d80264279f277f3a67f5"
-            alt="lady-profile"
-          />
-          <em>Beverly, Illinois</em>
-        </div>
+      <div style={{ color: "white", textAlign: "center" }}>
+        <h1 style={{ color: "white", textAlign: "center" }}>CONTACT US</h1>
+        <br></br>
+        <h4>For general inquiry & bulk order, Whatsapp our hotline at</h4>
+        <br></br>
+        <a href="https://wa.me/628886181332" style={{ color: "white" }}>
+          {" "}
+          <div
+            style={{ width: "300px", margin: "auto" }}
+            className={"border border-info"}
+          >
+            <h5>
+              <b>
+                <i class="fab fa-whatsapp"></i> +62 888-6181-332
+              </b>
+            </h5>
+          </div>
+        </a>
       </div>
-
-      <a
-        className="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </a>
-      <a
-        className="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </a>
-    </div>
+    </section>
   );
 };
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Linavbar from "./LiNavbar";
 import Navside from "./Navside";
+import logo from "./../../assests/images/niclogo.png";
 
 const Navibar = () => {
   const [toggle, setToggle] = useState(false);
@@ -41,8 +42,8 @@ const Navibar = () => {
         <Navside toggle={toggle} click={clickToggle} />
       )}
 
-      <a href="/home" className="navbarbrand">
-        Lorem Ipsum
+      <a href="#header" className="navbarbrand">
+        <img src={logo} style={{ width: "2em" }} alt="logo"></img>
       </a>
       <button
         className="navbar-toggler"
